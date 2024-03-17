@@ -10,12 +10,12 @@ public class Program
 
     public static double Avg(int[] numbers)
     {
-        double sum = 0;
-        foreach (int number in numbers)
+        double suma = 0;
+        foreach (int num in numbers)
         {
-            sum += number;
+            suma += number;
         }
-        return sum / numbers.Length;
+        return suma / numbers.Length;
     }
     
     public static int Max(int[] numbers)
